@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pseudo Class Slectors</title>
+        <style>
+            /* Styles go here */
+            header li{
+                list-style: none;
+            }
+            a:link, a:visited {
+                text-decoration: none;
+                background-color: grey;
+                border: 1px solid blue;
+                color: black;
+                display: block;
+                width: 200px;
+                text-align: center;
+                margin-bottom: 1px;
+            }
+            a:hover, a:active{
+                background-color: white;
+                color: purple;
+            }
+
+            header li:nth-child(3) {
+                font-size: 20px;
+            }
+
+            section div:nth-child(odd){
+                background-color: gray;
+                display: block;
+                width: 500px;
+            }
+
+            section div:hover {
+                background-color: rgb(43, 226, 217);
+                cursor: pointer;
+                display: block;
+                width: 500px;
+            }
+            /* Aqui solo hace que funcione en solo 1 
+
+                section div:nth-child(4):hover {
+                background-color: blueviolet;
+                cursor: pointer;
+                display: block;
+                width: 500px;
+            }
+            */
+
+        </style>
+    </head>
+    <body>
+        <h1>Pseudo Class Slectors</h1>
+
+        <header>
+            <ul>
+                <li> <a href="/"> Home</a></li>
+                <li> <a href="http://goo.gl/V0W16s" target="_blank">AngularJS Course</a></li>
+                <li> <a href="http://www.facebook.com/CourseraWebDev" target="_blank">Fcebook Fan Page</a></li>
+            </ul>
+        </header>
+
+        <section>
+            <div>DIV 1</div>
+            <div>Div 2</div>
+            <div>DIV 3</div>
+            <div>Div 4</div>            
+            <div>DIV 5</div>
+            <div>Div 6</div>            
+            <div>DIV 7</div>
+            <div>Div 8</div>            
+            <div>DIV 9</div>
+            <div>Div 10</div>           
+            <div>DIV 11</div>
+            <div>Div 12</div>            
+            <div>DIV 13</div>
+            <div>Div 14</div>            
+            <div>DIV 15</div>
+            <div>Div 16</div>            
+            <div>DIV 17</div>
+            <div>Div 18</div>            
+            <div>DIV 19</div>
+            <div>Div 20</div>
+        </section>
+    
+          
+    </body>
+</html>
